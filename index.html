@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="public/css/style.css">
+  </head>
+  <body>
+
+    <nav class="navbar">
+    <ul class="link-group">
+        <li class="link active"><a href="#">home</a></li>
+        <li class="link"><a href="#">projects</a></li>
+        <li class="link"><a href="#">about</a></li>
+        <li class="link"><a href="#" id="contact">contact</a></li>
+    </ul>
+  </nav>
+  <section class="home-section active">
+    <h1 class="hero-heading">hello, I <span class = "g">am</span> <br> <span class = "f">MADER CHOD</span></h1><br>
+    <!--<div class="hero-heading">and I'm <span id="element"></span></div>-->
+    <img src="public/images/hello.jpg" class="home-img" alt="">
+  </section>
+
+
+<section class="project-section active">
+    <h1 class="project-heading">some of my projects</h1>
+    <div class="project-container">
+        <div class="project-card">
+            <img src="public/images/tindog.png" class="project-img" alt="">
+            <div class="project-content">
+                <h1 class="project-title">Tindog</h1>
+                <p class="project-info-exp">
+                    Tindog is a simple web application built with HTML, CSS, and Bootstrap that allows users to browse and connect with other dog owners in their area and their dogs too.
+                </p>
+                <div class="project-btn-grp">
+                    <button onclick="mygithub()" class="button-89" role="button">Github</button>
+                    <button onclick="myrepl()" class="button-89" role="button">Replit</button>
+            </div>
+        </div>
+
+        </div>
+        <div class="project-card">
+            <img src="public/images/cloud.png" class="project-img" alt="">
+            <div class="project-content">
+                <h1 class="project-title">Weather App</h1>
+                <p class="project-info-exp">
+                    Weather apps enable users to get instant alerts regarding weather conditions with thee help of Weather API.
+                </p>
+                <div class="project-btn-grp">
+                    <button onclick="mygithub()" class="button-89" role="button">Github</button>
+                    <button onclick="myrepl()" class="button-89" role="button">Replit</button>
+            </div>
+        </div>
+
+        </div>
+        <div class="project-card">
+            <img src="public/images/drumkit1.jpeg" class="project-img" alt="">
+            <div class="project-content">
+                <h1 class="project-title-exp">Drum Kit</h1>
+                <p class="project-info">
+                    The Drum Kit is a repository that offers a virtual drum set allowing users to play music by using the keys on their keyboard as input, providing an interactive drumming experience.
+                </p>
+                <div class="project-btn-grp">
+                    <button onclick="mygithub()" class="button-69" role="button">Github</button>
+                    <button onclick="myrepl()" class="button-69" role="button">Replit</button>
+            </div>
+        </div>
+
+        </div>
+        <div class="project-card">
+            <img src="public/images/news.png" class="project-img" alt="">
+            <div class="project-content">
+                <h1 class="project-title">Newsletter Signup</h1>
+                <p class="project-info-exp">
+                    An email newsletter is a recurring email sent to subscribed contacts containing curated informational content from news articles to resources and tips
+                </p>
+                <div class="project-btn-grp">
+                    <button onclick="mygithub()" class="button-89" role="button">Github</button>
+                    <button onclick="myrepl()" class="button-89" role="button">Replit</button>
+            </div>
+        </div>
+
+        </div>
+    </div>
+</section>
+<section class="about-section active">
+    <div class="about">
+        <div class="about-img-container">
+            <img src="public/images/hello.jpg" class="about-img" alt="">
+            <button class="download-cv-btn">downlaod cv</button>
+        </div>
+        <p class="about-info">Lorem ipsum.....</p>
+    </div>
+</section>
+<div class="skill-section">
+    <h1 class="heading">skills</h1>
+    <div class="skills-container">
+        <div class="skill-card">
+            <img src="img/html.png" class="skill-img" alt="">
+            <div class="skill-level">First</div>
+            <h1 class="skill-name">HTML</h1>
+            <p class="skill-info">The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser. It is often assisted by technologies such as Cascading Style Sheets and scripting languages such as JavaScript.</p>
+        </div>
+        <div class="skill-card">
+            <img src="img/html.png" class="skill-img" alt="">
+            <div class="skill-level">Second</div>
+            <h1 class="skill-name">CSS</h1>
+            <p class="skill-info">Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language such as HTML or XML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.</p>
+        </div>
+        <div class="skill-card">
+            <img src="img/html.png" class="skill-img" alt="">
+            <div class="skill-level">Third</div>
+            <h1 class="skill-name">JAVASCRIPT</h1>
+            <p class="skill-info">JavaScript, often abbreviated as JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS. As of 2022, 98% of websites use JavaScript on the client side for webpage behavior</p>
+        </div>
+        <div class="skill-card">
+            <img src="img/html.png" class="skill-img" alt="">
+            <div class="skill-level">Fourth</div>
+            <h1 class="skill-name">NODE.JS</h1>
+            <p class="skill-info">Node.js is a cross-platform, open-source server environment that can run on Windows, Linux, Unix, macOS, and more. Node.js is a back-end JavaScript runtime environment, runs on the V8 JavaScript Engine, and executes JavaScript code outside a web browser.</p>
+        </div>
+        <div class="skill-card">
+            <img src="img/html.png" class="skill-img" alt="">
+            <div class="skill-level">Fifth</div>
+            <h1 class="skill-name">EXPRESS.JS</h1>
+            <p class="skill-info">Express.js, or simply Express, is a back end web application framework for building RESTful APIs with Node.js, released as free and open-source software under the MIT License. It is designed for building web applications and APIs. It has been called the de facto standard server framework for Node.js. </p>
+        </div>
+    </div>
+</div>
+<div class="timeline">
+    <h1 class="heading">education and experience</h1>
+    <div class="card">
+        <div class="card-body">
+            <h1 class="card-title">2000-2002</h1>
+            <p class="card-detail">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto sequi recusandae laborum ipsam dignissimos nostrum vitae provident officia, consectetur ab accusantium corrupti exercitationem temporibus repellat non magni cupiditate ea reprehenderit.</p>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-body">
+            <h1 class="card-title">2000-2002</h1>
+            <p class="card-detail">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto sequi recusandae laborum ipsam dignissimos nostrum vitae provident officia, consectetur ab accusantium corrupti exercitationem temporibus repellat non magni cupiditate ea reprehenderit.</p>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-body">
+            <h1 class="card-title">2000-2002</h1>
+            <p class="card-detail">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto sequi recusandae laborum ipsam dignissimos nostrum vitae provident officia, consectetur ab accusantium corrupti exercitationem temporibus repellat non magni cupiditate ea reprehenderit.</p>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-body">
+            <h1 class="card-title">2000-2002</h1>
+            <p class="card-detail">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto sequi recusandae laborum ipsam dignissimos nostrum vitae provident officia, consectetur ab accusantium corrupti exercitationem temporibus repellat non magni cupiditate ea reprehenderit.</p>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-body">
+            <h1 class="card-title">2000-2002</h1>
+            <p class="card-detail">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto sequi recusandae laborum ipsam dignissimos nostrum vitae provident officia, consectetur ab accusantium corrupti exercitationem temporibus repellat non magni cupiditate ea reprehenderit.</p>
+        </div>
+    </div>
+</div>
+
+<p class="contact-section">
+    <form class="contact-form">
+        <input type="text" name="name" id="name" autocomplete="off" placeholder="name">
+        <input type="text" name="email" id="email" autocomplete="off" placeholder="email">
+        <textarea name="msg" id="msg" placeholder="message" autocomplete="off"></textarea>
+        <button type="submit" class="form-submit-btn">contact</button>
+    </form>
+<!--</section>-->
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <!--<script>
+      var typed = new Typed('#element', {
+          strings: [' a Programmer', 'a Web Developer', 'a Gamer','Vengeance'],
+          typeSpeed: 75,
+      });
+  </script>-->
+  <script>
+  function mygithub() {
+    location.href = "https://github.com/Aryan-Mac01";
+  }
+  function myrepl() {
+    location.href = "https://replit.com/@AryanMishra61";
+  }
+
+  $("#contact").click(function(){
+    $(document).scrollTop(100);
+  })
+
+  </script>
+  </body>
+</html>
+
+
+<!-- HTML !-->
